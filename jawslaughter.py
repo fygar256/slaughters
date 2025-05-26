@@ -2,7 +2,7 @@
 import supertext as st
 import random
 
-HITMAX=1 # number of JAWS to hit
+HITMAX=1 # number of JAW to hit
 
 counter=0
 number_of_enemies=3
@@ -10,7 +10,7 @@ number_of_hits=0
 wait=2
 skipratio=0
 enemy1="   "
-enemy2=" J "
+enemy2=" "+chr(0xa4)+" "
 canon1=" "+chr(0x85)+chr(0x84)+chr(0x86)+" "
 canon2=" "+chr(0x91)+chr(0x91)+chr(0x91)+" "
 bulletchar=chr(0x82)
@@ -93,7 +93,7 @@ def canon():
 def disp_scores():
     st.locate(0,0)
     st.color((0,255,0))
-    st.putstr("THE JAWSSLAUGHTER ")
+    st.putstr("THE JAWSLAUGHTER ")
     st.color((255,255,0))
     st.putstr("NUMBER OF HITS: ")
     s=str(number_of_hits)
@@ -118,7 +118,7 @@ def difficulty(n):
 
 def main():
     global number_of_enemies,wait,counter
-    st.setscreen("JAWSSLAUGHTER")
+    st.setscreen("JAWSLAUGHTER")
     while(1):
         (wait,skipratio,number_of_enemies)=difficulty(number_of_hits)
         canon()
@@ -133,7 +133,7 @@ def main():
             while(not st.getkey('q')):
                 st.color((0,255,0))
                 st.locate(13,12)
-                s="YOU HIT "+str(number_of_hits)+" JAWS"
+                s="YOU HIT "+str(number_of_hits)+" JAW"
                 st.putstr(s)
                 st.color((255,0,0))
                 st.locate(13,13)
@@ -148,7 +148,7 @@ def main():
             while(not st.getkey('q')):
                 st.color((0,255,0))
                 st.locate(8,12)
-                st.putstr("THE JAWS HAVE INVADED")
+                st.putstr("THE JAW HAVE INVADED")
                 st.color((255,0,0))
                 st.locate(15,13)
                 st.putstr("GAME OVER")
