@@ -148,7 +148,7 @@ def main():
             while(not st.getkey('q')):
                 st.color((0,255,0))
                 st.locate(8,12)
-                st.putstr("THE JAW HAVE INVADED")
+                st.putstr("THE SPIDERS HAVE INVADED")
                 st.color((255,0,0))
                 st.locate(15,13)
                 st.putstr("GAME OVER")
