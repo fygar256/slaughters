@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import supertext as st
 import random
 
@@ -9,8 +9,8 @@ number_of_enemies=3
 number_of_hits=0
 wait=2
 skipratio=0
-enemy1=chr(0x95)+chr(0x90)+chr(0x92)
-enemy2=chr(0x93)+chr(0x96)+chr(0x94)
+enemy1="   "
+enemy2=" "+chr(0xA7)+" "
 canon1=" "+chr(0x85)+chr(0x84)+chr(0x86)+" "
 canon2=" "+chr(0x91)+chr(0x91)+chr(0x91)+" "
 bulletchar=chr(0x82)
