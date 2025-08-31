@@ -2,7 +2,9 @@ slaughters
 
 Games in the attic part 5
 
-The game is to destroy the invading enemies from above with your cannonballs and try not to let them reach the bottom line of the screen. 1 enemy must be killed to complete the mission, and the game is over when the enemies reach the bottom line of the screen. the enemies you have to destroy can be changed with changing HITMAX constant in source.
+The game is to destroy the invading enemies from above with your cannonballs and try not to let them reach the bottom line of the screen. 1 enemy must be killed to complete the mission, and the game is over when the enemies reach the bottom line of the screen. the enemies you have to destroy can be changed with changing HITMAX constant in source. These games use supertext python console module.
+
+https://github.com/fygar256/supertext
 
 The original game was published 43 years ago in Commodore's CBM3032. I forget the official name of the game, but I don't think there was a limit to the number of enemies you had to kill to complete the mission. I think it was a game from CURSOR. My memory is a little hazy, so I can't remember. In honor of the original, the original has no rrelation to any enemies in reality.
 
